@@ -10,9 +10,15 @@ const pk = JSON.parse(await readFile(new URL('package.json', import.meta.url)));
 process.env.ULTRAVIOLET_VERSION = pk.version;
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
-
+///test
 /**
- * @type {import('webpack').Configuration}
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+* @type {import('webpack').Configuration}
  */
 const config = {
     mode: isDevelopment ? 'development' : 'production',
